@@ -1,0 +1,137 @@
+.skills-section {
+  padding: 6rem 2rem;
+  background: #020617;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.skills-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.skills-header {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto 3.5rem;
+}
+
+.section-label {
+  display: inline-block;
+  color: #38bdf8;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  margin-bottom: 1rem;
+}
+
+.section-title {
+  margin: 0 0 1.2rem;
+  color: #f8fafc;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+}
+
+.section-title span {
+  color: #38bdf8;
+}
+
+.skills-intro {
+  margin: 0 auto;
+  color: #94a3b8;
+  font-size: 1rem;
+  line-height: 1.8;
+  max-width: 680px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.skill-card {
+  background: #0f172a;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 1.75rem;
+  transition: transform 0.25s ease, border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(56, 189, 248, 0.35);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.2);
+}
+
+.skill-card h3 {
+  margin: 0 0 0.9rem;
+  color: #f8fafc;
+  font-size: 1.15rem;
+}
+
+.skill-card p {
+  margin: 0 0 1.25rem;
+  color: #94a3b8;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.skill-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.55rem 0.9rem;
+  border-radius: 999px;
+  background: rgba(56, 189, 248, 0.08);
+  border: 1px solid rgba(56, 189, 248, 0.18);
+  color: #e2e8f0;
+  font-size: 0.88rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.skill-tag:hover {
+  background: rgba(56, 189, 248, 0.14);
+  border-color: rgba(56, 189, 248, 0.32);
+  color: #ffffff;
+}
+
+.learning-tag {
+  background: rgba(34, 197, 94, 0.08);
+  border-color: rgba(34, 197, 94, 0.25);
+  color: #bbf7d0;
+}
+
+.learning-tag:hover {
+  background: rgba(34, 197, 94, 0.14);
+  border-color: rgba(34, 197, 94, 0.35);
+  color: #dcfce7;
+}
+
+@media (max-width: 968px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .skills-section {
+    padding: 4.5rem 1.25rem;
+  }
+
+  .skill-card {
+    padding: 1.4rem;
+  }
+}
