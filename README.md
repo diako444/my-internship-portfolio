@@ -1,16 +1,70 @@
-# React + Vite
+# Diakou Khalandi | Frontend Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive personal portfolio website built to showcase my frontend development skills, projects, and growth toward full-stack development.
 
-Currently, two official plugins are available:
+## ✨ Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This portfolio represents my work as a frontend developer using React and modern web technologies. It includes an introduction, professional skills, selected projects, and ways to get in touch.
 
-## React Compiler
+I am currently expanding my backend knowledge with PHP, MySQL, and Laravel, with the goal of becoming a full-stack developer.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
 
-## Expanding the Oxlint configuration
+- Responsive, mobile-first design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Modern dark navy and cyan user interface
+
+- Responsive navigation bar with a mobile hamburger menu
+
+- Hero, About, Skills, Projects, and Contact sections
+
+- Categorized technical skills
+
+- Project cards with source-code and live-demo links
+
+- Smooth-scroll navigation
+
+- Reusable React component architecture
+
+## 🛠️ Tech Stack
+
+- **React**
+
+- **Vite**
+
+- **JavaScript**
+
+- **HTML5**
+
+- **CSS3**
+
+- **Git & GitHub**
+
+- **Vercel** — planned deployment
+
+## 📁 Project Structure
+
+```text
+
+src/
+
+├── components/
+
+│   ├── Navbar/
+
+│   ├── Hero/
+
+│   ├── About/
+
+│   ├── Skills/
+
+│   ├── Projects/
+
+│   └── Contact/
+
+├── App.jsx
+
+├── main.jsx
+
+└── index.css
+

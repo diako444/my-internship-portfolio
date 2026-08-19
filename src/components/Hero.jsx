@@ -48,7 +48,7 @@ function Hero() {
 
               {/* LinkedIn */}
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/diako-khalandi/" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="social-btn" 
@@ -61,7 +61,7 @@ function Hero() {
 
               {/* WhatsApp */}
               <a 
-                href="https://wa.me/" 
+                href="https://wa.me/+989029921291" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="social-btn" 
@@ -74,7 +74,7 @@ function Hero() {
 
               {/* Instagram */}
               <a 
-                href="https://instagram.com" 
+                href="https://instagram.com/diako_kh_" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="social-btn" 
